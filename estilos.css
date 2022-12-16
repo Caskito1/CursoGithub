@@ -2,5 +2,28 @@ body{
     background-color: blueviolet;
     color: aquamarine;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    
+    width: 70%;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+
+#cabecera{
+    color: aquamarine;
+    display:flex;
+    justify-content: center;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+#post{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
